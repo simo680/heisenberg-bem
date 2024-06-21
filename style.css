@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #006c05;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+.header__logo-image {
+  width: 100px;
+}
+
+.header__nav {
+  margin: 0;
+}
+
+.header__nav-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.header__nav-item {
+  margin-left: 20px;
+}
+
+.header__nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url("./img/break.jpg");
+  background-position: 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #006c05;
+  text-align: center;
+  padding: 200px 30px;
+}
+
+.hero__title {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero__subtitle {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.hero__button {
+  background-color: #006c05;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.rooms,
+.services,
+.contact {
+  padding: 50px 20px;
+}
+
+.rooms__title,
+.services__title,
+.contact__title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+
+.rooms__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.room {
+  width: 45%;
+  text-align: center;
+}
+
+.room__image {
+  width: 100%;
+  height: auto;
+}
+
+.room__booking-link {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #006c05;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.services__list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.services__item {
+  margin: 10px 0;
+}
+
+.contact__form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact__label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact__input,
+.contact__textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact__button {
+  background-color: #006c05;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #006c05;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Гостиница Хайзенберг</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <img
+          src="./img/heisenberg.jpg"
+          alt="Логотип гостиницы"
+          class="header__logo-image"
+        />
+      </div>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a href="#home" class="header__nav-link">Главная</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#rooms" class="header__nav-link">Номера</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#services" class="header__nav-link">Услуги</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#contact" class="header__nav-link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="hero__content">
+          <h1 class="hero__title">Добро пожаловать в гостиницу Хайзенберг</h1>
+          <p class="hero__subtitle">Лучшее место для отдыха и работы</p>
+          <a href="#rooms" class="hero__button">Забронировать</a>
+        </div>
+      </section>
+
+      <section id="rooms" class="rooms">
+        <h2 class="rooms__title">Наши номера</h2>
+        <div class="rooms__list">
+          <article class="room">
+            <h3 class="room__title">Стандартный номер</h3>
+            <img
+              src="./img/standart-room.jpg"
+              alt="Стандартный номер"
+              class="room__image"
+            />
+            <p class="room__description">Уютный номер с одной кроватью.</p>
+            <a href="#booking" class="room__booking-link">Забронировать</a>
+          </article>
+          <article class="room">
+            <h3 class="room__title">Люкс</h3>
+            <img src="./img/lux-room.jpg" alt="Люкс" class="room__image" />
+            <p class="room__description">Просторный номер с видом на город.</p>
+            <a href="#booking" class="room__booking-link">Забронировать</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="services" class="services">
+        <h2 class="services__title">Наши услуги</h2>
+        <ul class="services__list">
+          <li class="services__item">Бесплатный Wi-Fi</li>
+          <li class="services__item">Фитнес-центр</li>
+          <li class="services__item">Завтрак включен</li>
+          <li class="services__item">Бассейн</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2 class="contact__title">Контакты</h2>
+        <form action="#" class="contact__form">
+          <label for="name" class="contact__label">Имя</label>
+          <input type="text" id="name" class="contact__input" required />
+
+          <label for="email" class="contact__label">Email</label>
+          <input type="email" id="email" class="contact__input" required />
+
+          <label for="message" class="contact__label">Сообщение</label>
+          <textarea id="message" class="contact__textarea" required></textarea>
+
+          <button type="submit" class="contact__button">Отправить</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__text">
+        &copy; 2024 Гостиница Хайзенберг. Все права защищены.
+      </p>
+    </footer>
+  </body>
+</html>
